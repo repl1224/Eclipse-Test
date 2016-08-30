@@ -1,6 +1,10 @@
 class Circle{
 	public int x, y;
-
+	
+	public Circle(int x, int y){
+		this.x = x;
+		this.y = y;
+	}
 	public int getX() {
 		return x;
 	}
@@ -29,6 +33,7 @@ public class Test {
 		System.out.println("wow my first git");
 		System.out.println("wow my first git");
 		System.out.println("wow my first git");
-		
+		Circle cr = new Circle(5, 6);
+		cr.toString();
 	}
 }
